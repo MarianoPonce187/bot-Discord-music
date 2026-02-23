@@ -1,0 +1,39 @@
+
+# Variables de entorno
+.env
+
+# Base de datos
+*.db
+database/*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Archivos de audio temporales
+*.mp3
+*.webm
+*.m4a
+*.opus
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Mac
+.DS_Store
