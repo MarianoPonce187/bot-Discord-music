@@ -18,7 +18,7 @@ class Config:
     FFMPEG_OPTIONS = {
         'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5',
         'options': '-vn',
-        'executable': 'C:/ffmpeg/bin/ffmpeg.exe'
+        #'executable': 'C:/ffmpeg/bin/ffmpeg.exe' #Solo si no conecta el ffmpeg desde PATH
     }
     
     YT_DLP_OPTIONS = {
